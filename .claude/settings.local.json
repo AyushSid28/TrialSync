@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv:*)",
+      "Bash(curl:*)",
+      "Bash(taskkill //F //PID 30020)",
+      "Bash(taskkill //F //PID 27240)",
+      "Bash(pip show:*)",
+      "Bash(streamlit run:*)",
+      "Bash(where streamlit:*)",
+      "Bash(python -m streamlit --version)",
+      "Bash(python:*)",
+      "Bash(tasklist)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill:*)",
+      "Bash(node \"C:\\\\Users\\\\Mayank\\\\.claude\\\\skills\\\\impeccable\\\\scripts\\\\cleanup-deprecated.mjs\")",
+      "Bash(.venv/Scripts/python -m streamlit run streamlit_app.py)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(ls .venv/Scripts/pip*)",
+      "Bash(ls .venv/bin/pip*)",
+      "Bash(.venv/Scripts/python.exe -m pip install plotly)",
+      "Bash(.venv/Scripts/python.exe -m streamlit run streamlit_app.py)",
+      "Bash(.venv/Scripts/python.exe run.py)",
+      "Bash(wmic process:*)",
+      "Bash(tasklist //FI \"PID eq 17948\")",
+      "Bash(powershell:*)",
+      "Bash(PORT=8001 .venv/Scripts/python.exe -c \"import uvicorn; uvicorn.run\\('src.main:app', host='0.0.0.0', port=8001, log_level='info'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"import uvicorn; uvicorn.run\\('src.main:app', host='0.0.0.0', port=8001, log_level='info'\\)\")",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)"
+    ]
+  }
+}

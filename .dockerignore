@@ -1,0 +1,86 @@
+# Git and version control
+.git
+.gitignore
+.gitattributes
+
+# CI / editor (not needed in image)
+.github
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Python bytecode and caches
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+.eggs
+*.egg
+.mypy_cache
+.pytest_cache
+.ruff_cache
+.hypothesis
+.tox
+.dmypy.json
+dmypy.json
+
+# Virtual environments and local tooling
+.venv
+venv
+ENV
+env
+.uv
+
+# Build / packaging artifacts
+build
+dist
+downloads
+eggs
+lib
+lib64
+parts
+sdist
+var
+wheels
+develop-eggs
+.installed.cfg
+
+# Secrets and local env (keep example templates)
+.env
+.env.*
+!.env.example
+
+# Testing and coverage (not required at runtime)
+tests
+.coverage
+.coverage.*
+htmlcov
+*.cover
+coverage.xml
+nosetests.xml
+pytestdebug.log
+
+# Logs and local data dumps
+*.log
+logs
+*.db
+*.sqlite
+*.sqlite3
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker / Compose (image does not need these in build context)
+Dockerfile*
+docker-compose*.yml
+compose*.yaml
+.dockerignore
+
+# Project-local artifacts (large / dev output)
+agent_results
+docs

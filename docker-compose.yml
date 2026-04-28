@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    # .env is not in the image (.dockerignore); inject at runtime from your host file
+    env_file:
+      - .env
+
+

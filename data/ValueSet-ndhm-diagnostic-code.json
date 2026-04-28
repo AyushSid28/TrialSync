@@ -1,0 +1,64 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ndhm-diagnostic-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ndhm-diagnostic-code</b></p><a name=\"ndhm-diagnostic-code\"> </a><a name=\"hcndhm-diagnostic-code\"> </a><a name=\"ndhm-diagnostic-code-hi-IN\"> </a><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.0.2/CodeSystem-icd10.html\"><code>http://hl7.org/fhir/sid/icd-10</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>B53.0</td><td>Plasmodium ovale malaria</td></tr><tr><td>E11.9</td><td>Type 2 diabetes mellitus : Without complications</td></tr><tr><td>I46.9</td><td>Cardiac arrest, unspecified</td></tr><tr><td>S82.1</td><td>Fracture of upper end of tibia</td></tr><tr><td>K70.3</td><td>Alcoholic cirrhosis of liver</td></tr><tr><td>K35.8</td><td>Acute appendicitis, other and unspecified</td></tr><tr><td>A08.4</td><td>Viral intestinal infection, unspecified</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-diagnostic-code",
+  "version" : "6.5.0",
+  "name" : "ICD10Diagnosticcodes",
+  "title" : "ICD10 Diagnostic codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-07-20",
+  "publisher" : "National Resource Center for EHR Standards",
+  "contact" : [{
+    "name" : "National Resource Center for EHR Standards",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://nrces.in/"
+    }]
+  }],
+  "description" : "This valueset consists of codes that represent ICD-10 Diagnostic codes.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IN",
+      "display" : "India"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "B53.0",
+        "display" : "Plasmodium ovale malaria"
+      },
+      {
+        "code" : "E11.9",
+        "display" : "Type 2 diabetes mellitus : Without complications"
+      },
+      {
+        "code" : "I46.9",
+        "display" : "Cardiac arrest, unspecified"
+      },
+      {
+        "code" : "S82.1",
+        "display" : "Fracture of upper end of tibia"
+      },
+      {
+        "code" : "K70.3",
+        "display" : "Alcoholic cirrhosis of liver"
+      },
+      {
+        "code" : "K35.8",
+        "display" : "Acute appendicitis, other and unspecified"
+      },
+      {
+        "code" : "A08.4",
+        "display" : "Viral intestinal infection, unspecified"
+      }]
+    }]
+  }
+}
